@@ -23,6 +23,10 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         <#code#>
     }
+    
+    override func transition(from fromViewController: UIViewController, to toViewController: UIViewController, duration: TimeInterval, options: UIViewAnimationOptions = [], animations: (() -> Void)?, completion: ((Bool) -> Void)? = nil) {
+        <#code#>
+    }
 
 }
 
